@@ -32,14 +32,13 @@ module.exports = async function(req,res){
             req.checkBody('title').notEmpty().withMessage('Should Not Be Empty');
             req.checkBody('description').notEmpty().withMessage('Should Not Be Empty');
             req.checkBody('dueDate').notEmpty().withMessage('Should Not Be Empty');
-            req.checkBody('tags').notEmpty().withMessage('Should Not Be Empty');
             req.checkBody('assignTo').notEmpty().withMessage('Should Not Be Empty');
             
             return req.validationErrors();
         }
 
         const errors = await validate();
-        if(error){
+        if(errors){
             throw errors
         }
         else{

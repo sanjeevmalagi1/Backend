@@ -1,5 +1,5 @@
 var env =               process.env.NODE_ENV || 'development',
-    mongoURL =          process.env.MONGO_URL || 'mongodb://sanjeev:sanjeevpassword1*@ds247290.mlab.com:47290/scripbox'
+    mongoURL =          process.env.MONGO_URL,
     JWTSecret =         process.env.JWT_SECRET || 'dummysecret',
     packageJSON =       require('../package.json'),
     path =              require('path'),

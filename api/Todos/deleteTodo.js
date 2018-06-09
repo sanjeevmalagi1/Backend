@@ -29,7 +29,7 @@ module.exports = async function(req,res){
         };
 
         function validate(){
-            req.checkParams('id').notEmpty().withMessage('Should Not Be Empty');
+            req.checkParams('todoId').notEmpty().withMessage('Should Not Be Empty');
             return req.validationErrors();
         }
 

@@ -11,6 +11,6 @@
   "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f8cb00",
+  "theme_color": "#2196f3",
   "orientation": "portrait"
 }

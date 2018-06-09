@@ -1,0 +1,16 @@
+{
+  "short_name": "Assignment",
+  "name": "Assignment",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f8cb00",
+  "orientation": "portrait"
+}
